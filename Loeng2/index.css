@@ -1,0 +1,39 @@
+input[type=text], select, textarea {
+  width: 160px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  clear: left;
+  width: 100px;
+  text-align: left
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  clear: left;
+  width: 100px;
+  text-align: left
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+fieldset {
+  padding:30px; 
+  border:3px solid #4238ca; 
+  background:#f6f8ff;
+  width: 300px;
+}
