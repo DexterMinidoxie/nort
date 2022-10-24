@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Loeng3tund.css">
+
+</head>
+<title>Ankeet</title>
+</head>
+
+<body>
+  <h1>Ankeet test 1</h1>
+ 
+  <form>
+      <fieldset>
+            <legend>Personaalne info</legend>
+
+        <p>
+            <label>Eesnimi: <input name="firstName" /></label>
+        </p>
+        <p>
+            <label>Perekonnanimi: <input name="lastName" /></label>
+        </p>
+        <p>
+            <label>Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            Sugu:
+            <label><input type="radio" name="gender" value="male" /> Mees</label>
+            <label><input type="radio" name="gender" value="female" /> Naine</label>
+            <label><input type="radio" name="gender" value="Other"> Muu</label>
+        </p>
+        <p>
+            <label>Sünniaasta: <input type="date" placeholder="päev/kuu/aasta" name="birthDate"></label>
+        </p>
+        <p>
+            <label>Aadress:<input type="address"></label>
+        <p>
+            <label>Elukutselt:</label>
+                <select name="valik1" size="1" id="elukutse">
+                    <option value="working">Töötan</option>
+                    <option value="notWorking">Töötu</option>
+                    <option value="studying">Õpin</option>
+                </select>  
+        </p>
+        </p>
+            <label>Lisainfo:<textarea name="address" cols="30" rows="4"></textarea></label>
+        <p>
+            <button type="submit"><b>Kinnita</b></button>
+        </p>
+      </fieldset>
+  </form>
+</body>
+</html>
