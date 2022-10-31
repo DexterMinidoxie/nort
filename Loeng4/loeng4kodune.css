@@ -66,8 +66,8 @@ width: 100%;
 
 .flex-item {
   padding: 5px;
-  width: 200px;
-  height: 120px;
+  width: 210px;
+  height: 130px;
   margin: 10px;
   color: rgb(15, 15, 15);
   font-weight: bold;
@@ -75,6 +75,7 @@ width: 100%;
   text-align: center;
 }
 
-.footer-reviews {
+.footer-reviews, a {
   font-size: large;
+  font-weight: bolder;
 }
