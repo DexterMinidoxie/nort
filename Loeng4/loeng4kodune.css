@@ -1,0 +1,80 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+* { /* universal selector koik elemendid */
+  color: rgba(0, 0, 0, 0.85); /* leheteksti v2rv */
+}
+
+html {
+font-family: 'Roboto', sans-serif; 
+background-color: white; 
+font-size: 1rem; 
+letter-spacing: 0.03em;
+}
+
+.container {
+width: 90%; /* content laius */
+max-width: 1000px; /* content laius */
+margin: auto; /* v2ikevorm igast kyljest*/
+}
+
+h1 > a { /* H1 rule over A, eemaldab joone alt. */
+  text-decoration: none;
+}
+
+h1 {
+font-size: 30px; /* title size */
+}
+
+h2 {
+font-size: 22px; /* text size */
+}
+
+.slider {
+margin: 100px 40px 50px;
+}
+
+.slider_title {
+text-align: center;
+}
+
+.slider_button {
+border: none;
+background: white;
+}
+
+.cars {
+display: flex;
+width: 100%;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  border: 1px solid silver;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 200px;
+  height: 120px;
+  margin: 10px;
+  color: rgb(15, 15, 15);
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.footer-reviews {
+  font-size: large;
+}
