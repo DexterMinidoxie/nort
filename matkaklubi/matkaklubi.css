@@ -2,6 +2,19 @@
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 1500px) {
+  .paiskonteiner {
+    background-image: url('./Canvas/Hills@2x.png');
+}
+}
+
+@media screen and (max-width: 480px) {
+  .pais-menyy li{
+    float: none;
+    text-align: center;
+  }
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -35,6 +48,7 @@ body {
   letter-spacing: 2.67px;
   padding:15px 17px;
   text-transform: uppercase;
+  justify-content: flex-end;
 }
 
 .pais-menyy li{
@@ -44,21 +58,44 @@ body {
   letter-spacing: 2.67px;
 }
 
-a {
+.pais-menyy a {
   color: black;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16.67px;
+  font-weight: 800;
 }
 
-@media screen and (min-width: 1500px) {
-  .paiskonteiner {
-    background-image: url('./Canvas/Hills@2x.png');
-}
+.rida {
+  color: #0b0b0b;
+  text-transform: uppercase;
+  font-weight: 800;
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
-  .pais-menyy li{
-    float: none;
-    text-align: center;
-  }
+.rida h2 {
+  font-size: 39.57px;
+  font-weight: 800;
+}
+
+.rida h1 {
+  font-size: 74.39px;
+  font-weight: 800;
+}
+
+.rida h3 {
+  font-size: 20.83px;
+  font-weight: 800;
+}
+
+.pealkiri-tekstid {
+  padding-top: 231px;
+}
+
+.liblikas1 {
+  width: 75px;
+  height: 66px;
+  margin-top: -32px;
+}
+
+img {
+  vertical-align: middle;
 }
