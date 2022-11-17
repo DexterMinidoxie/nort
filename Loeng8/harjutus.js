@@ -7,16 +7,19 @@
 //console.log(nimi)
 //console.log('programm lopetas')
 
-let nimi
-let blokk
-nimi = prompt('sisesta nimi')
-//alert('tere, ' + nimi)
-console.log(nimi)
-blokk = document.getElementById('valjund')
-blokk.innerText = 'tere, ' + nimi
+let varv
+varv = prompt('sisesta lemmik värv')
+alert(varv + '  on suht ok')
 
-for (let index = 1; index < 11; index ++) {
-  console.log('Number: ' + index) 
-}
+//let blokk
+//console.log(varv)
+//blokk = document.getElementById('valjund')
+//blokk.innerText = + text
 
-console.log('programm lopetas')
+//for (let index = 1; index < 11; index ++) {
+//console.log('Number: ' + index) 
+//}
+
+//console.log('programm lopetas')
+
+ 

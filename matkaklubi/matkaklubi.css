@@ -91,11 +91,15 @@ body {
 }
 
 .liblikas1 {
-  width: 75px;
+  width: 77px;
   height: 66px;
   margin-top: -32px;
 }
 
-img {
-  vertical-align: middle;
+.liblikas2 {
+  width: 60px;
+  height: 32px;
+  display: block;
+  margin-bottom: 40px;
+  margin-left: -60px;
 }
