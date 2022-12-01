@@ -33,10 +33,10 @@ body {
 
 .pais-menyy {
   font-family: 'Montserrat', sans-serif;
-font-size: 16.67px;
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: 2.67px;
+  font-size: 16.67px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.67px;
   margin-left: auto
 }
 
@@ -83,7 +83,6 @@ letter-spacing: 2.67px;
 }
 
 .liblikas1 {
-  margin-top: -32px;
   width: 77px;
   height: 66px;
   margin-right: 310px;

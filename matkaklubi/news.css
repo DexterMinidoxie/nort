@@ -33,10 +33,10 @@ body {
 
 .pais-menyy {
   font-family: 'Montserrat', sans-serif;
-font-size: 16.67px;
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: 2.67px;
+  font-size: 16.67px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.67px;
   margin-left: auto
 }
 
@@ -74,18 +74,9 @@ letter-spacing: 2.67px;
   }
 }
 
-img {
-  width: 22%;
-  height: 180px;
-  opacity: 0.8;
+.grid-container {
 }
 
-h1, h2, h3 {
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.hikingNews-title {
-  font-size: 25px;
-  font-weight: 800;
+.grid-item {
+ 
 }
