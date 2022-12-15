@@ -30,12 +30,16 @@ const uudised = [
 
 function valjastaUudis(uudis) {
   let valjund = `
-  <div class="uudise_container col-4"> 
-    <img class="pildid" src="${uudis.pildidUrl}">
-      <h2 class="tiitel">${uudis.tiitel}<h2/>
-      <div class="sisu">${uudis.sisu}<div/>
-      <h3 class="autor">${uudis.autor}<h3/>
-  <div/>
+  <div class="card" style="width:400px">
+      <img class="card-img-top" src="${uudis.pildidUrl}"" alt="Card image">
+      <div class="card-body">
+      <h2 class="card-title">${uudis.tiitel}<h2/>
+      <div class="card-text">${uudis.sisu}<div/>
+      <h3>${uudis.autor}<h3/>
+      <a href="#" class="btn btn-primary">Register</a>
+  </div>                  
+  </div>
+  </div>
 
   ` 
 console.log(valjund)
